@@ -1,0 +1,22 @@
+https://www.devglan.com/spring-boot/spring-boot-file-upload-download
+
+https://www.devglan.com/react-js/file-upload-react-spring-rest
+
+document.getElementById('download').click();
+<a href="https://docs.google.com/uc?id=0B0jH18Lft7ypSmRjdWg1c082Y2M" download id="download" hidden>click</a>
+
+
+https://medium.com/@danismaz.furkan/basic-csrf-attack-simulation-protection-with-spring-security-82c37810a90
+
+https://medium.com/@danismaz.furkan/basic-csrf-attack-simulation-protection-with-spring-security-82c37810a90
+
+1. user ==> click on link /filexfr/landing?id=094c2901-63a6-4fc0-9978-9725f6f37653&value=086be562-2724-43f4-9d2d-4b4e4cb9c49c
+2. system ==> check "UUID" and render landing page for OTP with embedded 2nd link /filexfr/otp?bfa38e28-3811-4e75-83e6-44b76c1b79c8
+3. user ==> enter otp and submit to /filexfr/otp?bfa38e28-3811-4e75-83e6-44b76c1b79c8.
+4. system ==> validate OTP and render list/browse page + session + csrf embed + 3rd link /filexfr/download?c0781cda-ef15-40b3-be90-431e7b2ef291 embed.
+5. user ==> click on download or upload the file and submit.
+4. system ==> validate session + csrf and download/upload the file.
+
+
+
+
